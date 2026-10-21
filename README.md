@@ -11,3 +11,7 @@ Tests Oracle credentials or changes one user's password across non-production da
 ### [Veracode Report Parser](veracode_report_parser/README.md)
 
 Parses a Veracode Detailed Report XML file and generates JSON and Markdown summaries for unmitigated Static Analysis findings and SCA component vulnerabilities. See the [script](veracode_report_parser/veracode_report_parser.py) and its README for usage details.
+
+### [Okta Status Scraper](okta_status_scraper/README.md)
+
+Fetches an Okta status page and emits a JSON summary of its overall and component statuses, with diagnostics for fetch and parsing results. See the [script](okta_status_scraper/okta_status_scraper.py) and its README for usage details.
